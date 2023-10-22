@@ -39,7 +39,7 @@ If you found this repository helpful, please cite our EMNLP 2022, and 2023 paper
 ```
 ```bibtex
 @inproceedings{sancheti-etal-2023-what,
-    title = "AWhat to Read in a Contract? Party-Specific Summarization of Legal Obligations, Entitlements, and Prohibitions",
+    title = "What to Read in a Contract? Party-Specific Summarization of Legal Obligations, Entitlements, and Prohibitions",
     author = "Sancheti, Abhilasha  and
       Garimella, Aparna  and
       Srinivasan, Balaji Vasan  and
