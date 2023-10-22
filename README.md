@@ -1,5 +1,5 @@
 # LexDeMod
-Release of LexDeMod and Importance annotation Dataset associated with EMNLP 2022 paper [Agent-Specific Deontic Modality Detection on Legal Language](https://arxiv.org/pdf/2211.12752.pdf)<br />
+Release of LexDeMod and Importance annotation Dataset associated with EMNLP 2022 ([Agent-Specific Deontic Modality Detection on Legal Language](https://aclanthology.org/2022.emnlp-main.795.pdf)) and EMNLP 2023 ([What to Read in a Contract? Party-Specific Summarization of Legal Obligations, Entitlements, and Prohibitions](https://arxiv.org/pdf/2212.09825.pdf)) paper, respectively <br />
 *Authors*: [Abhilasha Sancheti](https://abhilashasancheti.github.io/), [Aparna Garimella](https://research.adobe.com/person/aparna-garimella/), [Balaji Vasan Srinivasan](https://research.adobe.com/person/balaji-vasan-srinivasan/), [Rachel Rudinger](http://rudinger.github.io/)  .
 
 1. deontic_data: contains dataset files for the two tasks:
@@ -19,7 +19,7 @@ Release of LexDeMod and Importance annotation Dataset associated with EMNLP 2022
 	- categorizer: contains train.txt, dev.txt, and test.txt files for the 3 folds used to train and evaluate the content categorizer
 		-- each line contains data in the form [PARTY]	sentence	label (list of 1s and 0s indicating the presence or absense of a category)
 
-If you found this repository helpful, please cite our EMNLP 2022 paper.
+If you found this repository helpful, please cite our EMNLP 2022, and 2023 papers.
 ```bibtex
 @inproceedings{sancheti-etal-2022-agent,
     title = "Agent-Specific Deontic Modality Detection in Legal Language",
@@ -35,5 +35,17 @@ If you found this repository helpful, please cite our EMNLP 2022 paper.
     url = "https://aclanthology.org/2022.emnlp-main.795",
     doi = "10.18653/v1/2022.emnlp-main.795",
     pages = "11563--11579"
+}
+```
+```bibtex
+@inproceedings{sancheti-etal-2023-what,
+    title = "AWhat to Read in a Contract? Party-Specific Summarization of Legal Obligations, Entitlements, and Prohibitions",
+    author = "Sancheti, Abhilasha  and
+      Garimella, Aparna  and
+      Srinivasan, Balaji Vasan  and
+      Rudinger, Rachel",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
 }
 ```
